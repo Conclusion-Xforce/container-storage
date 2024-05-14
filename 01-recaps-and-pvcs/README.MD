@@ -3,8 +3,8 @@
 ## Step 1 - Create Application Deployment
 Create a deployment, service and route resource for the photo-album app. For this step you do not need to configure persistent storage:
 Image: `quay.io/redhattraining/image-tool:latest`
-Applicatie poort: `5000`
-Poort vanuit buiten: `443`
+Port: `5000`
+Port vanuit buiten: `443`
 
 ## Step 2 - Use the App
 Go to the URL, check if the application is working and upload a photo.
