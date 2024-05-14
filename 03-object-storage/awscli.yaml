@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: awscli
+spec:
+  containers:
+    - name: awscli
+      image: mikesir87/aws-cli:1.16.220
+      stdin: true
+      tty: true
+      envFrom:
+        - configMapRef:
+            name: <INSERT BUCKET NAME>
+        - secretRef:
+            name: <INSERT BUCKET NAME>
