@@ -30,7 +30,7 @@ Use `envFrom`
 * Deploy the pod in `./awscli.yaml` 
 * Use the remote shell of the pod `oc rsh <PODNAME>`
 * Use the command `aws s3 ls --endpoint-url http://${BUCKET_HOST}` to check if the bucket exists
-* Use the command ` aws s3 ls --endpoint-url http://${BUCKET_HOST} s3://<INSERT BUCKET NAME>` to check your file.
+* Use the command `aws s3 ls --endpoint-url http://${BUCKET_HOST} s3://<INSERT BUCKET NAME>` to check your file.
 * You can play some more if you want.
 
 ## Resources
