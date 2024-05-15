@@ -17,7 +17,7 @@ env:
 
 ## Step 3 - Adjust the deployment to use object storage instead of block storage
 * Remove the volume mount and volume from your deployment
-* Expose the key value paris in the configmap and secret of the object bucket claim as environment variables in the photo-album deployment. The application will automatically read these variables and use them as the storage backend.
+* Expose the key value pairs in the configmap and secret of the object bucket claim as environment variables in the photo-album deployment. The application will automatically read these variables and use them as the storage backend.
 
 Use `envFrom`
 
